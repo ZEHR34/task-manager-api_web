@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Reserve an audience</title>
-    <link rel="stylesheet" href="./styles/style_home.css">
+    <link rel="stylesheet" href="./styles/input.css">
+    <link rel="stylesheet" href="./styles/topbar.css">
+    <link rel="stylesheet" href="styles/task.css">
+
+
 </head>
 <body>
 <header>
-    <div class="wrapper-top">
+    <div class="top">
         <ul>
-            <li class="nav-area-l nav-area-li"><a href="home.html">Home</a></li>
+            <li class="nav-area-r nav-area-li"><a href="home.html">Home</a></li>
             <li class="nav-area-r nav-area-li"><a href="login.html" >Log in</a></li>
             <li class="nav-area-r nav-area-li"> <a href="tasks.html">Tasks</a></li>
             <li class="nav-area-r nav-area-li"> <a href="register.html">register</a></li>
@@ -17,16 +21,25 @@
 
     </div>
 
-    <div>
-        <div class="tasks-list">
-            <ul>
-                <li class="nav-area-l nav-area-li"><a href="home.html">Home</a></li>
-                <li class="nav-area-r nav-area-li"><a href="login.html" >Log in</a></li>
-                <li class="nav-area-r nav-area-li"> <a href="tasks.html">Tasks</a></li>
-                <li class="nav-area-r nav-area-li"> <a href="register.html">register</a></li>
-            </ul>
+    <div class="input_data">
+        <input type="text" name="" placeholder="task">
+        <input type="submit" name="" value="create">
+    </div>
+    <div class="input_data">
+        <ul class="snippet">
+            <li>
+                <input type="text" name="" placeholder="task">
+                <input type="submit" name="" value="edit" class="editb">
+                <input type="submit" name="" value="delete" class="editb">
+            </li>
 
-        </div>
+            <li>
+                <input type="text" name="" placeholder="task">
+                <input type="submit" name="" value="edit">
+                <input type="submit" name="" value="delete">
+            </li>
+
+        </ul>
     </div>
 
 </header>

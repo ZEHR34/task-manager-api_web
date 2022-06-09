@@ -1,0 +1,25 @@
+.snippet {
+  margin: 50px;
+  padding: 20px;
+  background-color: #cad1d7;
+  list-style: none;
+  color: black;
+  align-items: normal;
+  width: max-content;
+
+  input{
+    color: black;
+    text-transform: none;
+  }
+  li{
+    border-bottom: solid;
+    border-color: black;
+    border-radius: 1px;
+    margin-right: 1px;
+    //width: 100%;
+    input{
+      width: max-content;
+    }
+  }
+
+}
