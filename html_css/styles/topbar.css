@@ -1,0 +1,27 @@
+.top {
+  font-family: 'Poppins', sans-serif;
+  background-color: #333333;
+  height: 120px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase; }
+
+.nav-area-r {
+  float: right;
+  list-style: none;
+  margin: 30px;
+  padding: 20px; }
+
+.nav-area-li {
+  display: inline-block; }
+  .nav-area-li a {
+    color: #0f0;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase; }
+    .nav-area-li a:hover {
+      background: #222;
+      color: #ff7; }
+
+/*# sourceMappingURL=topbar.css.map */

@@ -1,0 +1,20 @@
+.snippet {
+  margin: 50px;
+  padding: 20px;
+  background-color: #cad1d7;
+  list-style: none;
+  color: black;
+  align-items: normal;
+  width: max-content; }
+  .snippet input {
+    color: black;
+    text-transform: none; }
+  .snippet li {
+    border-bottom: solid;
+    border-color: black;
+    border-radius: 1px;
+    margin-right: 1px; }
+    .snippet li input {
+      width: max-content; }
+
+/*# sourceMappingURL=task.css.map */

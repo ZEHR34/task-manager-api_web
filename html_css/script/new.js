@@ -26,7 +26,7 @@ function sendRequest(method, url, user = null, password = null, body = null) {
         xhr.send(JSON.stringify(body));
     });
 }
-const requestURL = 'http://localhost:8000/user';
+const requestURL = 'http://localhost/user';
 
 let body = {
     name: 'Muhammad',
